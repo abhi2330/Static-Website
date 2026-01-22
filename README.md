@@ -21,7 +21,8 @@ This project includes:
 - **HTML5** – Structure and content
 - **CSS3** – Styling and layout
 - **Git & GitHub** – Source control and hosting
-- (Optional) **GitHub Pages / Netlify / AWS S3** – Deployment
+- (Optional) **GitHub Pages / Netlify / AWS S3** – Deployment or
+- Using AWS CDN for edge location 
 
 ---
 
@@ -61,13 +62,13 @@ Open in Browser
 open index.html
 ```
 or double-click the file in your system’s file explorer.
-📦 GitHub Pages
+📦 Amazon CloudFront – CDN for faster global delivery
 
-- You can host this static site easily using GitHub Pages:
-- In the GitHub repo, go to Settings → Pages
-- Under Source, choose main branch and / (root)
-- Save – your site will be live at:
-- https://abhi2330.github.io/Static-Website
+- Hosting static content on AWS S3
+- Content delivery through CDN edge locations
+- Improved performance, availability, and scalability
+- Understanding real-world cloud architecture
+- https://daqu9ma44ajjo.cloudfront.net/
 
 🚀 Netlify
 
